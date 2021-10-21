@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Layout</title>
+    <style>
+    .textContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0px 8px 0px;
+    color: white;
+}
+#mainContent{
+    display: flex;
+    justify-content: space-between;    
+}
+#leftContent{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rightContent{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+    <div id="header" class="header textContent">
+        <h4>Header</h4>
+    </div>
+    <div id="navbar" class="navbar textContent">
+        <h4>Navigation Bar</h4>
+    </div>
+    <div id="mainContent" class="mainContent">
+        <div id="leftContent" class="leftContent">
+            <h4>Content</h4>
+        </div>
+        <div id="content" class="content">
+            <h4>Content</h4>
+        </div>
+        <div id="rightContent" class="rightContent">
+            <h4>Content</h4>
+        </div>
+    </div>
+    <div id="footer" class="footer textContent">
+        <h4>Footer</h4>
+    </div>
+</body>
+</html>
